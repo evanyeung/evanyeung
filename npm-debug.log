@@ -1,0 +1,98 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp-css-minify' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 verbose cache add [ 'gulp-css-minify', null ]
+6 verbose cache add spec="gulp-css-minify" args=["gulp-css-minify",null]
+7 verbose parsed spec { raw: 'gulp-css-minify',
+7 verbose parsed spec   scope: null,
+7 verbose parsed spec   name: 'gulp-css-minify',
+7 verbose parsed spec   rawSpec: '',
+7 verbose parsed spec   spec: '*',
+7 verbose parsed spec   type: 'range' }
+8 verbose parsed spec { raw: 'gulp-css-minify',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'gulp-css-minify',
+8 verbose parsed spec   rawSpec: '',
+8 verbose parsed spec   spec: '*',
+8 verbose parsed spec   type: 'range' }
+9 verbose addNamed [ 'gulp-css-minify', '*' ]
+10 verbose addNamed [ null, '*' ]
+11 silly lockFile 50b897ea-gulp-css-minify gulp-css-minify@*
+12 verbose lock gulp-css-minify@* /Users/evan/.npm/50b897ea-gulp-css-minify.lock
+13 silly addNameRange { name: 'gulp-css-minify', range: '*', hasData: false }
+14 verbose mapToRegistry name gulp-css-minify
+15 verbose mapToRegistry uri https://registry.npmjs.org/gulp-css-minify
+16 verbose request on initialization, where is /gulp-css-minify
+17 verbose request after pass 1, where is /gulp-css-minify
+18 verbose request url raw /gulp-css-minify
+19 verbose request resolving registry [ 'https://registry.npmjs.org/', './gulp-css-minify' ]
+20 verbose request after pass 2, where is https://registry.npmjs.org/gulp-css-minify
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 15:11:50
+23 verbose request id e8a07468976b5797
+24 http request GET https://registry.npmjs.org/gulp-css-minify
+25 http 404 https://registry.npmjs.org/gulp-css-minify
+26 verbose headers { date: 'Sun, 05 Oct 2014 19:11:50 GMT',
+26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '52',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   'x-served-by': 'cache-jfk1020-JFK',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1412536310.266940,VS0,VE353',
+26 verbose headers   'keep-alive': 'timeout=10, max=50',
+26 verbose headers   connection: 'Keep-Alive' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Sun, 05 Oct 2014 19:11:50 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1412536310.266940,VS0,VE353',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile 50b897ea-gulp-css-minify gulp-css-minify@*
+29 silly lockFile 50b897ea-gulp-css-minify gulp-css-minify@*
+30 verbose stack Error: 404 Not Found: gulp-css-minify
+30 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+30 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+30 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:237:22)
+30 verbose stack     at Request.emit (events.js:98:17)
+30 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1146:14)
+30 verbose stack     at Request.emit (events.js:117:20)
+30 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1097:12)
+30 verbose stack     at IncomingMessage.emit (events.js:117:20)
+30 verbose stack     at _stream_readable.js:943:16
+30 verbose stack     at process._tickCallback (node.js:419:13)
+31 verbose statusCode 404
+32 verbose pkgid gulp-css-minify
+33 verbose cwd /Users/evan/Copy/Devel/psite2
+34 error Darwin 13.4.0
+35 error argv "node" "/usr/local/bin/npm" "install" "--save-dev" "gulp-css-minify"
+36 error node v0.10.32
+37 error npm  v2.0.2
+38 error code E404
+39 error 404 Not Found: gulp-css-minify
+39 error 404
+39 error 404 'gulp-css-minify' is not in the npm registry.
+39 error 404 You should bug the author to publish it (or use the name yourself!)
+39 error 404
+39 error 404 Note that you can also install from a
+39 error 404 tarball, folder, http url, or git url.
+40 verbose exit [ 1, true ]
