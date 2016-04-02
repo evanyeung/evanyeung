@@ -68,7 +68,6 @@ li {
     padding-top: 48px;
     padding-left: 80px;
     width: 420px;
-    /*text-align: justify;*/
 }
 
 .firstname {
@@ -102,6 +101,8 @@ li {
 
 @media (max-width: 900px) {
     body, .header { width: 80%; }
+
+    .header { box-shadow: none; }
 
     .left-col { position: static; }
 
