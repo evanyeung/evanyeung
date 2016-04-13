@@ -1,9 +1,9 @@
 html, body {
     background-color: #485e66;
     color: #f0f0f0;
-    font-family: "lato", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 300;
+    font-family: roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 100;
     line-height: 1.8;
     margin: 0 auto;
     padding: 0;
@@ -12,7 +12,7 @@ html, body {
 
 body {
     padding: 100px 0;
-    width: 800px;
+    width: 880px;
 }
 
 a, a:hover, a:active, a:visited {
@@ -67,7 +67,7 @@ li {
     margin-left: 300px;
     padding-top: 48px;
     padding-left: 80px;
-    width: 420px;
+    width: 480px;
 }
 
 .firstname {
@@ -99,7 +99,7 @@ li {
     vertical-align: top;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 940px) {
     body, .header { width: 80%; }
 
     .header { box-shadow: none; }
