@@ -96,6 +96,10 @@ strong {
     margin-left: 40px;
 }
 
+.experience a {
+  text-decoration: underline;
+}
+
 .tools-col {
     display: inline-block;
     padding-right: 60px;
